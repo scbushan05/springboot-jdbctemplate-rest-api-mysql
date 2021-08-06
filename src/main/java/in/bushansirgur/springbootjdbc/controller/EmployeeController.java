@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import in.bushansirgur.springbootjdbc.DAO.EmployeeDAO;
 import in.bushansirgur.springbootjdbc.entity.Employee;
 
-@RestController
+@RestController("/api/v1/")
 public class EmployeeController {
 	
 	@Autowired 
